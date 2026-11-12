@@ -1,15 +1,10 @@
 # homebrew-texa
 
-Yet another shell text editor: **texa**, a small editor for the terminal, in the spirit of nano
-and vim. Open a file, change it, save, quit.
+**texa has moved to [siriokds/homebrew-tap](https://github.com/siriokds/homebrew-tap).**
 
 ```sh
-brew install siriokds/texa/texa
-texa notes.txt
+brew tap siriokds/tap
+brew install texa
 ```
 
-The formula installs the program already built (macOS on Apple silicon for now; Linux will
-follow). `texa --version` tells the version.
-
-texa uses the engine of Microsoft Edit (MIT License); its notice is installed with the program
-(`CREDITS.md`, in `$(brew --prefix)/share/doc/texa`).
+If texa was installed from here, `brew update` moves it there by itself (`tap_migrations.json`).
