@@ -1,7 +1,7 @@
 class Texa < Formula
   desc "Small text editor for the terminal, in the spirit of nano and vim"
   homepage "https://github.com/siriokds/homebrew-texa"
-  version "0.1.2"
+  version "0.1.3"
 
   depends_on arch: :arm64
   depends_on :macos
@@ -10,8 +10,8 @@ class Texa < Formula
   # will join the macOS one.
   on_macos do
     on_arm do
-      url "https://github.com/siriokds/homebrew-texa/releases/download/v0.1.2/texa-0.1.2-macos-arm64.tar.gz"
-      sha256 "dd7542047f61d52b60c276f32517d956708690696fc286665948bee5755f5e9f"
+      url "https://github.com/siriokds/homebrew-texa/releases/download/v0.1.3/texa-0.1.3-macos-arm64.tar.gz"
+      sha256 "d821d9a66b85bca6446af00aa99da648cd5e43922e3322d60352a1673e9601b1"
     end
   end
 
